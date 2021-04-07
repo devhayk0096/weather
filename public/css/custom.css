@@ -1,0 +1,145 @@
+footer {
+    width: 100%;
+    padding-top: 4em;
+}
+
+#content {
+    min-height: 500px;
+}
+
+#part1 {
+    width: 100%;
+    height: 275px;
+    background-color: rgb(21 81 75);
+}
+
+#part2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(5 62 57);
+    position: relative;
+}
+
+#project-info {
+    width: 250px;
+    height: 280px;
+    position: relative;
+    top: 30px;
+}
+
+#sitelink {
+    color: white;
+    font-size: 35px;
+}
+
+#sitelink:hover {
+    color: white;
+}
+
+#title {
+    color: gray;
+    position: relative;
+    top: 0px;
+    font-size: 14.1px
+}
+
+#detail {
+    color: #aaa7a7;
+    font-size: 16px
+}
+
+#explore {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -235px;
+    left: 29%
+}
+
+#txt1,
+#txt2 {
+    color: white;
+    font-size: 20px
+}
+
+.link {
+    display: flex;
+    width: 150px;
+    color: #aaa7a7;
+    background-color: transparent;
+    position: relative;
+    top: -10px
+}
+
+.link:nth-of-type(1) {
+    padding-top: 10px;
+    border-top: 2px solid white;
+}
+
+.link:hover {
+    color: white;
+}
+
+#visit {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -515px;
+    left: 50%
+}
+
+#txt6 {
+    color: white;
+}
+#txt6 a {
+    color: rgb(239 255 195);
+}
+
+body.waiting * { cursor: wait; }
+
+ul.cities {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #0A1F44;
+    min-height: 250px;
+}
+ul.cities .city {
+    width: 23%;
+    margin: 1%;
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: #1E2432;
+}
+ul.cities .city-name {
+    word-break: break-word;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.weather-section .city-name sup {
+    padding: 0 0.5em;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background: #FF8C00;
+}
+
+.weather-section .city-temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1E2432;
+}
+.weather-section .city-icon {
+    margin-top: 10px;
+}
+.weather-section figcaption {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.bootstrap-autocomplete a {
+    cursor: pointer;
+}
